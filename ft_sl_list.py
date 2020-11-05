@@ -7,8 +7,6 @@ def len_list(mass):
 
 def ft_sl_list(mass):
     count = 0
-    if len_list(mass) != 0:
-        count = 1
     for i in range(1, len_list(mass)):
         if mass[i] > mass[i - 1]:
             count += 1
